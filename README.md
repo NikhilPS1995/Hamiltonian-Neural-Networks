@@ -9,6 +9,7 @@ Make sure `numpy`, `matplotlib`, and `torch` are installed.
 
 ## List of classes
 - ``` MLP ``` class defines the multi layer perceptron (feedforward neural network) that takes in the generated data and predicts the Hamiltonian function
+The value of 'N' can be changed to modify the width of each of the hidden layers.
 - ``` HNN ``` class defines the outer network for the ```MLP``` network. ```HNN``` calls ```MLP``` and finds the gradients of the Hamiltonian function. These gradients are used to find the loss with respect to the numerical derivatives calculated from the data.
  
 ## Working with the code

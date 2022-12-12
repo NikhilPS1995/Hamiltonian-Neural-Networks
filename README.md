@@ -19,13 +19,14 @@ Modify the variable `dyn_sys` in the first line of the notebook to try out vario
 dyn_sys = 'pendulum' 
 dyn_sys = 'linear_spring_mass'
 dyn_sys = 'nonlinear_spring_mass'
-
 are three valid values that the variable dyn_sys can take. 
+
 Any other string throws an error as they are not defined.
-Switch from one to the other to check the performance of the Hamiltonian Neural Network
-on these two systems i.e., a spring mass system or a pendulum
+Switch from one to the other to check the performance of the 
+Hamiltonian Neural Network on these systems i.e., 
+a linear spring mass system, a nolinear spring mass system or a pendulum
 '''
-dyn_sys = 'nonlinear_spring_mass'
+dyn_sys = 'linear_spring_mass'
 ```
 
 
